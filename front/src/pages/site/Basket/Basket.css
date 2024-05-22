@@ -1,0 +1,19 @@
+.basket__div{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket__div table{
+    width: 80%;
+}
+
+@media screen and (max-width: 768px){
+    .desc__th{
+        display: none;
+    }
+    .desc__td{
+        display: none;
+    }
+}

@@ -1,0 +1,74 @@
+footer h4{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: #737373;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer ul li{
+    color: #737373;
+    margin-bottom: 10px;
+}
+
+footer i{
+    font-size: 16px;
+    color: #737373;
+    padding-right: 30px;
+}
+
+.shoe__card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.shoe__card button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 6px 20px;
+    margin-top: 10px;
+}
+
+.shoe__card img{ margin-bottom: 10px;}
+
+footer{
+    padding: 80px 0px;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__bottom p{
+    color: #737373;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px){
+    footer .col-3{
+        width: 50%;
+    }
+    footer h4{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    footer .col-3{
+        width: 100%;
+    }
+}
